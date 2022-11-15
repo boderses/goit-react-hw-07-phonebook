@@ -1,5 +1,4 @@
 import { React } from 'react';
-import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { contactDeleteThunk, contactsFetchStart } from '../../redux/thunks';
